@@ -1,0 +1,64 @@
+.main{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.info{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.title{
+    color: #2222;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+.text{
+    color: #7d7978;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.title2{
+    color: coral;
+    font-size: 36px;
+    line-height: 80px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.img{
+    border-radius: 10px;
+    width: 30;
+}
+
+.input_field {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
