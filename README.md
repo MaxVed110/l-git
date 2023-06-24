@@ -1,1 +1,1 @@
-# l-git
+Version control in depth
