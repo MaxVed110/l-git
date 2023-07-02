@@ -45,6 +45,29 @@
     <a href="http://instagram.com/"><img class="img" src="img/instagram.svg" alt="instagram" width="30"></a>
     <a href="https://vk.com/feed"><img class="img" src="img/vk.svg" alt="vk" width="30"></a>
 
+    <table>
+        <tr>
+            <th style="padding-right: 20px;">first_name</th>
+            <th style="padding-right: 20px;">last_name</th>
+            <th style="padding-right: 20px;">age</th>
+            <th style="padding-right: 20px;">average_score</th>
+        </tr> <!--ряд с ячейками заголовков-->
+        {% for student in context %}
+        <tr>
+            <td>{{student.first_name}}</td>
+            <td>{{student.last_name}}</td>
+            <td>{{student.age}}</td>
+            <td>{{student.average_score}}</td>
+        </tr> <!--ряд с ячейками тела таблицы-->
+        {%endfor%}
+    </table>
+    <a href="http://127.0.0.1:5000/news/">Новости</a>
+    <section>
+        <h1></h1>
+        <p class="text"></p>
+        <p class="date"></p>
+    </section>
+
 </body>
 
 </html>
